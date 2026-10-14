@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@import "./components/notice.css";
+
+@theme {
+  --color-paper: #F5F2E9;
+  --color-green: #183F35;
+  --color-sage: #DCE5D9;
+  --color-white: #FFFFFF;
+  --color-muted: #52645C;
+  --color-line: #C5D0C3;
+  --color-clay: #B79A80;
+  --color-on-green-muted: #DCE5D9;
+
+  --font-serif: "Lora", Georgia, serif;
+  --font-sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-handwriting: "Caveat", cursive, sans-serif;
+}
+
+:root {
+  --color-paper: #F5F2E9;
+  --color-green: #183F35;
+  --color-sage: #DCE5D9;
+  --color-white: #FFFFFF;
+  --color-muted: #52645C;
+  --color-line: #C5D0C3;
+  --color-clay: #B79A80;
+  --color-on-green-muted: #DCE5D9;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #F5F2E9;
+  color: #183F35;
+}
+
+.font-serif {
+  font-family: "Lora", Georgia, serif;
+}
+
+.font-sans {
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.font-handwriting {
+  font-family: "Caveat", cursive, sans-serif;
+}
+
+body { margin: 0; }
+.site-app { min-height: 100vh; background: #F5F2E9; color: #183F35; }
+html { scroll-padding-top: 94px; }
+main:focus { outline: none; }
+a:focus-visible, button:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.skip-main { position: fixed; top: 12px; left: 12px; z-index: 200; background: #183f35; color: #f5f2e9; padding: 12px 20px; transform: translateY(-180%); }
+.skip-main:focus { transform: none; }
+.site-navigation { position: fixed; inset: 0 0 auto; z-index: 50; background: #f5f2e9ee; backdrop-filter: blur(14px); border-bottom: 1px solid #183f3520; }
+.navigation-inner { width: min(1280px, calc(100% - 96px)); height: 86px; margin-inline: auto; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.desktop-navigation { display: flex; align-items: center; gap: 27px; font-size: 13px; color: #52645c; }
+.desktop-navigation a:hover { color: #183f35; }
+.navigation-actions { display: flex; align-items: center; gap: 21px; }
+.navigation-card { font-size: 11px; color: #52645c; border-bottom: 1px solid #183f3535; cursor: pointer; }
+.navigation-whatsapp { display: flex; align-items: center; gap: 16px; padding: 11px 19px; border: 1px solid #183f3550; border-radius: 30px; font-size: 12px; transition: background .2s; }
+.navigation-whatsapp:hover { background: #dce5d9; }
+.navigation-menu { display: none; width: 36px; height: 36px; align-items: center; justify-content: center; cursor: pointer; }
+.mobile-navigation { padding: 12px 24px 22px; background: #f5f2e9; border-top: 1px solid #183f3520; box-shadow: 0 22px 30px #183f3512; }
+.mobile-navigation a, .mobile-navigation button { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 13px 0; border-bottom: 1px solid #183f3515; text-align: left; font-size: 14px; cursor: pointer; }
+@media(max-width:1100px) { .desktop-navigation { display: none; } .navigation-menu { display: flex; } .navigation-inner { width: calc(100% - 72px); } }
+@media(max-width:650px) { .navigation-inner { width: calc(100% - 40px); height: 76px; gap: 10px; } .navigation-inner .font-serif { font-size: 17px; } .navigation-inner .font-sans { font-size: 9px; } .navigation-inner > a svg { width: 26px; } .navigation-inner > a .flex { gap: 8px; } .navigation-actions { gap: 9px; } .navigation-card { display: none; } .navigation-whatsapp { padding: 10px 13px; gap: 8px; font-size: 11px; } }
+@media(max-width:360px) { .navigation-inner { width: calc(100% - 32px); } .navigation-inner .font-serif { font-size: 15px; } .navigation-inner > a svg { width: 22px; } .navigation-whatsapp { padding: 9px; gap: 5px; } .navigation-actions { gap: 4px; } .navigation-menu { width: 27px; } }
+html[data-motion="reduced"] { scroll-behavior: auto !important; }
+html[data-motion="reduced"] *, html[data-motion="reduced"] *::before, html[data-motion="reduced"] *::after { animation: none !important; transition-duration: 0s !important; }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto !important; } *,*::before,*::after { animation: none !important; transition-duration: 0s !important; } }
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EAE6DB;
+}
+::-webkit-scrollbar-thumb {
+  background: #183F35;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #112d26;
+}
