@@ -46,7 +46,7 @@ export const defaultProfessionalConfig: ProfessionalConfig = {
   qrImagePath: null,
   mensagemWhatsapp: "Olá, Antônio Andreoli. Gostaria de conversar sobre uma questão jurídica.",
   fraseCaneta: "Direito com clareza.",
-  horarioAtendimento: "Segunda a sexta, das 9h às 18h",
+  horarioAtendimento: "Segunda a sexta, das 9h às 17h",
   endereco: {
     logradouro: "Rua Promotor Sá Carvalho",
     numero: "5",
