@@ -1,6 +1,6 @@
 # Antônio Andreoli — Direito Previdenciário
 
-[Ver o site no GitHub Pages](https://samuelsantos20.github.io/antonio-andreoli-site/)
+[Ver o site](https://andreoliadv.com/)
 
 Site institucional com composição aberta, caneta em 3D e uma sequência de escrita controlada pela rolagem. Inclui atendimento, áreas de atuação, contato por WhatsApp e cartão digital para salvar na agenda.
 
@@ -17,7 +17,7 @@ Prévia local: http://127.0.0.1:3002/
 
 ## Atualizar o GitHub Pages
 
-O Pages publica a pasta `docs` da branch `main`. Ela contém a versão compilada para o caminho `/antonio-andreoli-site/`.
+O Pages publica a pasta `docs` da branch `main` no domínio `andreoliadv.com`. O build usa a raiz `/` para os arquivos do site.
 
 ```sh
 pnpm typecheck
@@ -25,10 +25,10 @@ pnpm check:film
 pnpm check:contact
 pnpm check:render
 pnpm check:reviews
-pnpm exec vite build --base /antonio-andreoli-site/ --outDir docs
+pnpm build
 ```
 
-Preserve `docs/.nojekyll` e envie as alterações de código e `docs` para a branch `main`. A navegação do cartão digital usa hash para permitir abrir e recarregar a página em hospedagem estática.
+O build copia `public/CNAME` e `public/.nojekyll` para `docs`. Envie as alterações de código e `docs` para a branch `main`. A navegação do cartão digital usa hash para permitir abrir e recarregar a página em hospedagem estática.
 
 ## Avaliações Google
 

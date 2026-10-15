@@ -13,6 +13,8 @@ export default defineConfig(({mode}) => {
     });
   };
   return {
+    base: '/',
+    build: {outDir: 'docs', emptyOutDir: false},
     plugins: [react(), tailwindcss(), {name:'google-reviews',configureServer:reviewsMiddleware,configurePreviewServer:reviewsMiddleware}],
     resolve: {
       alias: {
