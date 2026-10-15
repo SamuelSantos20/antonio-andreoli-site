@@ -149,7 +149,7 @@ export function HeroNarrativeSection({
       <div ref={stage} className="story-stage">
         <div ref={copy} className="story-copy">
           <p className="story-eyebrow">
-            <span aria-hidden="true" /> DIREITO PREVIDENCIÁRIO
+            <span aria-hidden="true" /> DIREITO PREVIDENCIÁRIO EM NOVA IGUAÇU
             <span className="story-eyebrow-oab">· {getOabFormatted(config)}</span>
           </p>
           <h1 id="hero-title">
@@ -160,7 +160,7 @@ export function HeroNarrativeSection({
             com <em>clareza.</em>
           </h1>
           <p className="story-description">
-            Orientação em aposentadorias, benefícios do INSS e planejamento previdenciário. Uma conversa atenta à sua história.
+            Antônio Andreoli, advogado previdenciário em Nova Iguaçu. Orientação em aposentadorias, benefícios do INSS e planejamento previdenciário, com atenção à sua história.
           </p>
           <div className="story-actions">
             <a

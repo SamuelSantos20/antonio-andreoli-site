@@ -41,7 +41,7 @@ export const defaultProfessionalConfig: ProfessionalConfig = {
   whatsappE164: "+5521999623802",
   whatsappDisplay: "(21) 99962-3802",
   email: null,
-  siteUrl: null,
+  siteUrl: "https://andreoliadv.com/",
   googleReviewUrl: null,
   qrImagePath: null,
   mensagemWhatsapp: "Olá, Antônio Andreoli. Gostaria de conversar sobre uma dúvida previdenciária.",
