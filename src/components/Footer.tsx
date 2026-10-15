@@ -34,7 +34,7 @@ export function Footer({ onNavigateContactPage }: Props) {
         </div>
         <div className="footer-meta">
           <p>© {new Date().getFullYear()} Antônio Andreoli · Todos os direitos reservados</p>
-          <p>Direito Previdenciário · OAB/RJ 064430 · Nova Iguaçu — RJ</p>
+          <p>Direito Previdenciário · Cível · Família · Sucessões · OAB/RJ 064430 · Nova Iguaçu — RJ</p>
         </div>
       </div>
     </footer>

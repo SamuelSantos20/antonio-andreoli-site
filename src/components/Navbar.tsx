@@ -110,7 +110,7 @@ export function Navbar({
             event.preventDefault();
             home();
           }}
-          aria-label="Antônio Andreoli — Direito Previdenciário (ir para o início)"
+          aria-label="Antônio Andreoli — Direito Previdenciário e Cível (ir para o início)"
           className="navigation-brand"
         >
           <BrandLogo symbolSize={34} showSubtitle />

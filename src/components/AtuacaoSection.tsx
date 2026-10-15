@@ -23,6 +23,27 @@ const areas = [
     text: 'Conferência detalhada do extrato do INSS (CNIS) e do histórico de contribuições para corrigir pendências com antecedência e preparar sua futura aposentadoria.',
     detail: 'Regularização do CNIS · Conferência de documentos · Organização do histórico',
   },
+  {
+    number: '04',
+    label: 'DIREITO CÍVEL',
+    title: 'Cada questão merece uma análise cuidadosa.',
+    text: 'Orientação e acompanhamento em questões cíveis, a partir dos fatos e documentos de cada situação.',
+    detail: 'Análise do caso · Orientação jurídica · Acompanhamento de demandas',
+  },
+  {
+    number: '05',
+    label: 'DIREITO DE FAMÍLIA',
+    title: 'Cuidado e clareza em questões familiares.',
+    text: 'Atuação em questões da Vara de Família, com escuta atenta e orientação sobre os caminhos possíveis para cada caso.',
+    detail: 'Questões familiares · Orientação sobre documentos · Acompanhamento processual',
+  },
+  {
+    number: '06',
+    label: 'DIREITO DAS SUCESSÕES',
+    title: 'Orientação para organizar o que fica.',
+    text: 'Acompanhamento de inventário e partilha de bens, com atenção aos documentos, às pessoas envolvidas e às etapas do procedimento.',
+    detail: 'Inventário · Partilha de bens',
+  },
 ];
 
 export function AtuacaoSection() {
@@ -38,7 +59,7 @@ export function AtuacaoSection() {
               Sua história é<br />o ponto de <em>partida.</em>
             </h2>
             <p className="section-intro">
-              Cada trajetória de trabalho tem suas particularidades. O primeiro passo é compreender a sua com calma e clareza.
+              Cada história tem suas particularidades. O primeiro passo é compreender a sua com calma e clareza.
             </p>
           </div>
         </div>
@@ -61,7 +82,7 @@ export function AtuacaoSection() {
           event.preventDefault();
           focusSection('contato', true);
         }}>
-          <span>Conversar sobre minha trajetória</span>
+          <span>Conversar sobre meu caso</span>
           <ArrowUpRight size={17} aria-hidden="true" />
         </a>
       </div>

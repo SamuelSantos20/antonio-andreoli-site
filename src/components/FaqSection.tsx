@@ -9,7 +9,7 @@ const createFaqs = (config: ProfessionalConfig) => [
   {
     question: 'Quais documentos são úteis para a primeira conversa?',
     answer:
-      'Documento de identificação, carteiras de trabalho, carnês de contribuição e, se tiver acesso ao aplicativo ou site Meu INSS, o extrato de contribuições (CNIS). Caso ainda não tenha todos os documentos em mãos, podemos conversar primeiro e orientar como solicitá-los.',
+      'Documento de identificação e os registros relacionados à sua dúvida ajudam na análise inicial. Para questões previdenciárias, podem ser úteis carteiras de trabalho e o extrato do INSS (CNIS). Para família e sucessões, documentos pessoais e dos bens envolvidos. Podemos conversar mesmo que você ainda não tenha tudo em mãos.',
   },
   {
     question: 'Já tenho um pedido em andamento ou recebi uma exigência do INSS. Posso buscar orientação?',
@@ -20,6 +20,16 @@ const createFaqs = (config: ProfessionalConfig) => [
     question: 'Quando vale a pena fazer o planejamento previdenciário?',
     answer:
       'O planejamento é indicado para quem deseja conferir se todos os vínculos e recolhimentos estão registrados corretamente no CNIS antes de pedir a aposentadoria, evitando surpresas com períodos pendentes ou dados divergentes.',
+  },
+  {
+    question: 'Posso buscar orientação para questões da Vara de Família?',
+    answer:
+      'Sim. Explique a situação no primeiro contato e, se possível, reúna os documentos relacionados. A orientação depende da análise das circunstâncias de cada caso.',
+  },
+  {
+    question: 'O escritório atende inventário e partilha de bens?',
+    answer:
+      'Sim. Antônio Andreoli atua em Direito das Sucessões, incluindo inventário e partilha de bens. Na primeira conversa, você pode apresentar a situação e os documentos disponíveis para receber orientação sobre os próximos passos.',
   },
   {
     question: 'O atendimento pode ser feito tanto pelo WhatsApp quanto presencialmente?',
@@ -60,7 +70,7 @@ export function FaqSection({ config }: Props) {
 
         <div className="faq-footer">
           <p className="faq-disclaimer">
-            As respostas acima têm caráter meramente informativo. Cada situação previdenciária depende da análise individual do histórico e dos documentos do segurado.
+            As respostas acima têm caráter meramente informativo. Cada situação depende da análise individual dos fatos e documentos.
           </p>
           <a
             href={getWhatsappLink(config)}

@@ -70,8 +70,8 @@ export default function App() {
   useLayoutEffect(() => {
     document.title =
       currentRoute === '/contato'
-        ? 'Cartão Digital e Contato | Antônio Andreoli — Direito Previdenciário (OAB/RJ 064430)'
-        : 'Antônio Andreoli | Direito Previdenciário — OAB/RJ 064430';
+        ? 'Cartão Digital e Contato | Antônio Andreoli — Direito Previdenciário e Cível (OAB/RJ 064430)'
+        : 'Antônio Andreoli | Direito Previdenciário, Cível, Família e Sucessões — OAB/RJ 064430';
     if (!pendingFocus.current) return;
     pendingFocus.current = false;
     document.querySelector<HTMLElement>('main')?.focus({ preventScroll: true });

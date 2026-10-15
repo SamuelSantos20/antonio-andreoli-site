@@ -28,7 +28,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
         </span>
         {showSubtitle && (
           <span className={`font-sans text-[11px] sm:text-[12px] font-normal mt-0.5 tracking-wide ${subtitleColor}`}>
-            Direito Previdenciário
+            Previdenciário · Cível
           </span>
         )}
       </div>

@@ -20,7 +20,10 @@ try {
     const module = await server.ssrLoadModule(file);
     rendered[name] = renderToStaticMarkup(createElement(module[name], props));
   }
-  assert.equal((rendered.AtuacaoSection.match(/<article /g) || []).length, 3);
+  assert.equal((rendered.AtuacaoSection.match(/<article /g) || []).length, 6);
+  for (const area of ['DIREITO CÍVEL', 'DIREITO DE FAMÍLIA', 'DIREITO DAS SUCESSÕES', 'Inventário', 'Partilha de bens']) {
+    assert.ok(rendered.AtuacaoSection.includes(area), `Missing practice area: ${area}`);
+  }
   for (const name of ['AtuacaoSection', 'AtendimentoSection', 'PilaresSection', 'FaqSection', 'ContatoSection']) {
     assert.ok(rendered[name].includes('aria-labelledby='));
     assert.ok(rendered[name].includes('<h2'));

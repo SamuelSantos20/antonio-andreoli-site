@@ -39,7 +39,7 @@ export function ContatoSection({ config, onSaveContact }: Props) {
               <em>conversa.</em>
             </h2>
             <p className="contact-intro">
-              Conte sua dúvida previdenciária pelo WhatsApp ou agende seu atendimento presencial em Nova Iguaçu.
+              Conte sua dúvida previdenciária, cível, de família ou sobre inventário e partilha pelo WhatsApp. Você também pode agendar atendimento presencial em Nova Iguaçu.
             </p>
           </div>
           <div className="contact-direct">

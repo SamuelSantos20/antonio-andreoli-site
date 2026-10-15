@@ -1,5 +1,5 @@
 /**
- * Configuração central para Antônio Andreoli — Direito Previdenciário
+ * Configuração central para Antônio Andreoli — Direito Previdenciário e Cível
  * Conforme decisões confirmadas no briefing de 13/10/2026.
  */
 
@@ -35,7 +35,7 @@ export const defaultProfessionalConfig: ProfessionalConfig = {
   modoPreview: false,
   nomeExibicao: "Antônio Andreoli",
   nomeCompleto: "Antônio Andreoli",
-  descricao: "Direito Previdenciário",
+  descricao: "Direito Previdenciário, Cível, de Família e das Sucessões",
   oabUf: "RJ",
   oabNumero: "064430",
   whatsappE164: "+5521999623802",
@@ -44,7 +44,7 @@ export const defaultProfessionalConfig: ProfessionalConfig = {
   siteUrl: "https://andreoliadv.com/",
   googleReviewUrl: null,
   qrImagePath: null,
-  mensagemWhatsapp: "Olá, Antônio Andreoli. Gostaria de conversar sobre uma dúvida previdenciária.",
+  mensagemWhatsapp: "Olá, Antônio Andreoli. Gostaria de conversar sobre uma questão jurídica.",
   fraseCaneta: "Direito com clareza.",
   horarioAtendimento: "Segunda a sexta, das 9h às 18h",
   endereco: {

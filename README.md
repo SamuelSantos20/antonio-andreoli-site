@@ -1,8 +1,8 @@
-# Antônio Andreoli — Direito Previdenciário
+# Antônio Andreoli — Direito Previdenciário e Cível
 
 [Ver o site](https://andreoliadv.com/)
 
-Site institucional com composição aberta, caneta em 3D e uma sequência de escrita controlada pela rolagem. Inclui atendimento, áreas de atuação, contato por WhatsApp e cartão digital para salvar na agenda.
+Site institucional com composição aberta, caneta em 3D e uma sequência de escrita controlada pela rolagem. Apresenta a atuação em Direito Previdenciário, Cível, de Família e das Sucessões, incluindo inventário e partilha de bens. Inclui contato por WhatsApp e cartão digital para salvar na agenda.
 
 ## Executar localmente
 

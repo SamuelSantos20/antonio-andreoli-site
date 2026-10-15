@@ -17,7 +17,7 @@ export function generateVCard(config: ProfessionalConfig): string | null {
     `FN:${escapeVCard(config.nomeCompleto)}`,
     `N:Andreoli;Antônio;;;`,
     `TITLE:${escapeVCard(config.descricao)}`,
-    `NOTE:${escapeVCard(`Advogado Previdenciário - OAB/${config.oabUf} ${config.oabNumero}`)}`,
+    `NOTE:${escapeVCard(`Advogado - OAB/${config.oabUf} ${config.oabNumero}`)}`,
   ];
 
   if (config.whatsappE164) {

@@ -10,17 +10,17 @@ const steps = [
   {
     number: '01',
     title: 'Conte sua história.',
-    text: 'Compartilhe sua dúvida e o momento da sua vida profissional pelo WhatsApp ou em atendimento presencial agendado. A conversa começa pela escuta.',
+    text: 'Compartilhe sua dúvida pelo WhatsApp ou em atendimento presencial agendado. A conversa começa pela escuta.',
   },
   {
     number: '02',
     title: 'Reúna os documentos que tiver.',
-    text: 'Carteiras de trabalho, carnês, extrato do INSS (CNIS) ou cartas do órgão ajudam na análise. Se faltar algum documento, orientamos como obtê-lo.',
+    text: 'Separe os documentos relacionados ao seu caso. Podem ser registros de trabalho, comunicações do INSS ou documentos de família e dos bens envolvidos. Se faltar algo, orientamos sobre os próximos passos.',
   },
   {
     number: '03',
     title: 'Entenda o caminho com clareza.',
-    text: 'Você recebe explicações diretas sobre sua situação previdenciária, os documentos necessários e os próximos passos possíveis.',
+    text: 'Você recebe explicações diretas sobre sua situação, os documentos necessários e os próximos passos possíveis.',
   },
 ];
 
