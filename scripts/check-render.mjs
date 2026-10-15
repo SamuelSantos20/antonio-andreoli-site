@@ -31,7 +31,7 @@ try {
   }
   assert.ok(rendered.ContactPage.includes('(21) 99962-3802'));
   for (const name of ['ContatoSection', 'ContactPage']) {
-    assert.ok(rendered[name].includes('<address>R. Promotor Sá Carvalho, 292<br/>'));
+    assert.ok(rendered[name].includes('<address>Rua Promotor Sá Carvalho, 5<br/>'));
     assert.ok(rendered[name].includes('Nova Iguaçu'));
     assert.ok(rendered[name].includes('26216-180'));
     assert.ok(rendered[name].includes('https://www.google.com/maps/search/?api=1&amp;query='));

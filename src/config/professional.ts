@@ -48,8 +48,8 @@ export const defaultProfessionalConfig: ProfessionalConfig = {
   fraseCaneta: "Direito com clareza.",
   horarioAtendimento: "Segunda a sexta, das 9h às 18h",
   endereco: {
-    logradouro: "R. Promotor Sá Carvalho",
-    numero: "292",
+    logradouro: "Rua Promotor Sá Carvalho",
+    numero: "5",
     bairro: "Centro",
     cidade: "Nova Iguaçu",
     uf: "RJ",

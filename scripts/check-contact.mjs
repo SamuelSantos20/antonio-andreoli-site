@@ -14,7 +14,7 @@ const card=generateVCard(config);
 assert.ok(card.includes('FN:Antônio Andreoli'));
 assert.ok(card.includes('TEL;TYPE=CELL,VOICE,PREF:+5521999623802'));
 assert.ok(card.includes('OAB/RJ 064430'));
-assert.ok(card.includes('ADR;TYPE=WORK:;;R. Promotor Sá Carvalho\\, 292 - Centro;Nova Iguaçu;RJ;26216-180;Brasil'));
+assert.ok(card.includes('ADR;TYPE=WORK:;;Rua Promotor Sá Carvalho\\, 5 - Centro;Nova Iguaçu;RJ;26216-180;Brasil'));
 assert.ok(!generateVCard({...config,endereco:undefined}).includes('ADR;'));
 assert.ok(card.startsWith('BEGIN:VCARD\r\nVERSION:3.0\r\n'));
 assert.ok(card.endsWith('END:VCARD'));
