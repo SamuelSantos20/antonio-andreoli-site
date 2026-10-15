@@ -39,6 +39,6 @@ export function GoogleReviewSection({config,variant='section',className='',data:
      :<div className="reviews-copy"><p>Uma conversa pode fazer diferença.<br/><em>Sua experiência também.</em></p><span>Compartilhe como foi seu atendimento com Antônio Andreoli.</span></div>}
  </div></div>;
  if(variant==='card')return <section ref={host} className={`google-reviews google-reviews--compact ${className}`} aria-labelledby="google-reviews-title"><h2 id="google-reviews-title">Experiências compartilhadas.</h2>{body}</section>;
- return <section id="avaliacoes" ref={host} className={`editorial-section google-reviews ${className}`} aria-labelledby="google-reviews-title"><div className="editorial-container"><div className="reviews-heading"><p className="section-kicker"><span>04</span> EXPERIÊNCIAS COMPARTILHADAS</p><h2 id="google-reviews-title">A sua experiência<br/><em>merece ser ouvida.</em></h2></div>{body}</div></section>;
+ return <section id="avaliacoes" ref={host} className={`editorial-section google-reviews ${className}`} aria-labelledby="google-reviews-title"><div className="editorial-container"><div className="reviews-heading"><p className="section-kicker"><span>05</span> EXPERIÊNCIAS COMPARTILHADAS</p><h2 id="google-reviews-title">A sua experiência<br/><em>merece ser ouvida.</em></h2></div>{body}</div></section>;
 }
 

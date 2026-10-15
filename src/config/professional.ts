@@ -98,3 +98,14 @@ export function getWhatsappLink(config: ProfessionalConfig = defaultProfessional
   const encodedMsg = encodeURIComponent(config.mensagemWhatsapp);
   return `https://wa.me/${digits}?text=${encodedMsg}`;
 }
+
+/**
+ * Gera URL oficial de consulta do endereço no Google Maps quando o endereço está configurado
+ */
+export function getAddressMapsLink(config: ProfessionalConfig = defaultProfessionalConfig): string | null {
+  if (config.googleMapsUrl) return config.googleMapsUrl;
+  if (!config.endereco) return null;
+  const { logradouro, numero, bairro, cidade, uf, cep, pais } = config.endereco;
+  const query = `${logradouro}, ${numero} - ${bairro}, ${cidade} - ${uf}, ${cep}, ${pais}`;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
